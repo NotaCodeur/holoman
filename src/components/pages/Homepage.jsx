@@ -4,11 +4,9 @@ import { Typography, Row, Col, Statistic, Input, Space, Button, Card, Collapse, 
 import VirtualList from 'rc-virtual-list';
 import { Link } from 'react-router-dom';
 
-import { useGetCryptosQuery } from '../services/cryptoApi';
-import { Cryptocurrencies, News } from '../components';
 import {
   useGetHeliumHotspotsQuery,
-} from '../services/heliumApi';
+} from '../../services/heliumApi';
 
 
 
