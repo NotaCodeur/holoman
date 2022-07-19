@@ -24,7 +24,7 @@ const Game = (props) => {
       title={item.name}
       description={item.description}
     /> */}
-                    <img alt=" " src={item.src} style={{ width: "25vw", padding: "0" }} />
+                    <img alt=" " src={item.src} style={{ width: "22vw", padding: "0" }} />
                 </Button>
             </ul>
         </>
