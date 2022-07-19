@@ -80,7 +80,7 @@ const Homepage = () => {
                   <Button style={{marginLeft: 20}} type="primary">hint</Button>
                 </Popover>
               </Row>
-
+                  <br />
               <Row justify="space-around">
                 <Game setPicks={setPicks} />
               </Row>
