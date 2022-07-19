@@ -24,18 +24,18 @@ a:hover{
 }
 
 .navbar{
-    flex: 0.2;
+    flex: 0;
     background-color: #27187e;
     width: 100%;
 }
 
 .main{
-    flex: 0.8;
+    flex: 1;
     width: 100%;
     
 }
 .routes{
-    padding: 15px;
+    padding: 0px;
 }
 .nav-container{
     position: fixed;

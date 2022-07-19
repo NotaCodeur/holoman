@@ -9,10 +9,13 @@ import './App.css';
 const App = () => {
     return (
         <div className='app'>
+
+{/* 
             <div className='navbar'>
                 <Navbar />
             </div>
-            
+             */}
+
             <div className='main'>
                 <Layout>
                     <div style={{background: '#f1f2f6'}} className='routes'>
@@ -29,6 +32,8 @@ const App = () => {
                       
                     </div>
                 </Layout>
+
+{/* 
                 <div className='footer'>
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
                         holoman <br />
@@ -39,6 +44,8 @@ const App = () => {
                         <Link to='/helium'>Helium</Link>
                     </Space>
                 </div>
+
+                 */}
             </div>
         </div>
     );

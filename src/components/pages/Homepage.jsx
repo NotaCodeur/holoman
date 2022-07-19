@@ -20,7 +20,17 @@ const Homepage = () => {
 
   return (
     <>
-     
+    <Col>
+    <div style={{height: "20vh"}} />
+     <Row justify="space-around">
+        <Col span={8}>
+        <Card style={{height: "60vh"}}>
+          hello
+        </Card>
+        </Col>
+     </Row>
+    <div style={{height: "20vh"}} />
+    </Col>
     </>
   )
 }
