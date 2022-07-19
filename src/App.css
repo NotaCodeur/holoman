@@ -78,19 +78,19 @@ a:hover{
 
 @media screen and (max-width:1300px){
     .main{
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width:1170px){
     .main{
-        margin-left: 55px;
+        margin-left: 00px;
     }
 }
 
 @media screen and (max-width:1000px){
     .main{
-        margin-left: 90px;
+        margin-left: 00px;
     }
 }
 
@@ -106,9 +106,9 @@ a:hover{
 
     .main{
         flex: 1;
-        margin-top: 90px;
+        margin-top: 00px;
         margin-left: 0px;
-        margin-right: 10px;
+        margin-right: 00px;
     }
 
     .nav-container{
@@ -285,7 +285,7 @@ a:hover{
 }
 @media screen and (max-width: 500px){
     .heading{
-        margin-top: 20px;
+        margin-top: 00px;
     }
 }
 

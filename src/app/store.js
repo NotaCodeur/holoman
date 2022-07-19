@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { heliumApi } from "../services/heliumApi";
+import { Api } from "../services/Api";
 
 
 export default configureStore({
     reducer: {
-        [heliumApi.reducerPath]: heliumApi.reducer,
+        [Api.reducerPath]: Api.reducer,
     },
 });
