@@ -38,8 +38,8 @@ const App = () => {
                 </Layout>
                 <div className='footer'>
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-                        WalleyDash <br />
-                        All rights reserves
+                        holoman <br />
+                        past present future
                     </Typography.Title>
                     <Space>
                         <Link to='/'>Home</Link>

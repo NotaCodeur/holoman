@@ -10,6 +10,5 @@ export default configureStore({
         [cryptoApi.reducerPath]: cryptoApi.reducer,
         [cryptoNewsApi.reducerPath]: cryptoNewsApi.reducer,
         [heliumApi.reducerPath]: heliumApi.reducer,
-        [heliumApiTransactions.reducerPath]: heliumApiTransactions.reducer,
     },
 });
