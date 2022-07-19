@@ -63,9 +63,10 @@ const Homepage = () => {
                   content={
                     <>
                     <p>holoman is a master of time</p>
-                    <p>the past is heavy as rock</p>
-                    <p>the present is light as paper </p>
-                    <p>and the future is sharp as ...</p>
+                    <p>he greets you with this message:</p>
+                    <p>" the past is heavy as rock "</p>
+                    <p>" the present is light as paper "</p>
+                    <p>" and the future is sharp as shears "</p>
                     {/* <p>holoman is a master of time</p>
                     <p>in the past the present will rhyme</p>
                     <p>so present the future sublime </p>
@@ -88,6 +89,8 @@ const Homepage = () => {
               <div className="score">
                 {myPick && <Result myPick={myPick} housePick={housePick} />}
               </div>
+                  
+
             </Col>
 
           </Row>
