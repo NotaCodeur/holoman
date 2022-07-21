@@ -4,12 +4,17 @@ import { Typography, Row, Col, Statistic, Input, Space, Button, Card, Collapse, 
 import VirtualList from 'rc-virtual-list';
 import { Link } from 'react-router-dom';
 
+
 import {
   useGetMyUrlQuery,
 } from '../../services/Api';
 
 import Game from '../game';
 import Result from '../result';
+import future from '../../images/holoman future.png';
+import rock from '../../images/rockHouse.png';
+import paper from '../../images/paperHouse.png';
+import scissors from '../../images/scissorsHouse.png';
 
 const { Paragraph } = Typography;
 const { Title } = Typography;
@@ -22,11 +27,14 @@ const Heading = () => {
 const Homepage = () => {
   const [myPick, setMyPick] = useState("");
   const [housePick, setHousePick] = useState("");
+  const [houseImage, setHouseImage] = useState("");
 
   const randomPick = () => {
-    const choices = ["past", "present", "future"];
+    const choices = ["rock", "paper", "scissors"];
+    const images = [rock, paper, scissors];
     const randomIndex = Math.floor(Math.random() * Math.floor(3));
     setHousePick(choices[randomIndex]);
+    setHouseImage(images[randomIndex]);
   };
 
   const setPicks = (item) => {
@@ -45,6 +53,17 @@ const Homepage = () => {
     setVisible(newVisible);
   };
 
+  const setHouseHand = () => {
+    if (housePick == rock) {
+      return rock
+    } else if (housePick == paper) {
+      return paper
+    } else if (housePick == scissors) {
+      return scissors
+    }
+
+  }
+
   return (
     <>
       <Col>
@@ -58,6 +77,7 @@ const Homepage = () => {
               <h1>Are you a master of probability?</h1>
               <Row justify="center">
                 <h1>> defeat holoman 10 times </h1>
+                <h1> and win a free mint !</h1>
                 
                 <Popover
                   content={
@@ -81,8 +101,16 @@ const Homepage = () => {
                   <Button style={{marginLeft: 20}} type="primary">hint</Button>
                 </Popover>
               </Row>
+
+                  <img alt="" src={future} style={{width:"100px"}} />
                   <br />
+                  <br />
+                  <img alt="" src={houseImage} style={{width:"100px"}} />
+                  <br />  
+                  <br />  
+                  <br />  
               <Row justify="space-around">
+                
                 <Game setPicks={setPicks} />
               </Row>
 

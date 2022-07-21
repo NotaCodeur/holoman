@@ -30,17 +30,17 @@ const Result = (props) => {
 
   useEffect(() => {
     const chooseWinner = () => {
-      if (myPick == "present" && housePick === "future") {
+      if (myPick == "rock" && housePick === "scissors") {
         setGameScore((gameScore) => gameScore + 1);
-      } else if (myPick === "present" && housePick === "past") {
+      } else if (myPick === "rock" && housePick === "paper") {
         setGameScore((gameScore) => gameScore - 1);
-      } else if (myPick === "future" && housePick === "past") {
+      } else if (myPick === "scissors" && housePick === "paper") {
         setGameScore((gameScore) => gameScore + 1);
-      } else if (myPick === "future" && housePick === "present") {
+      } else if (myPick === "scissors" && housePick === "rock") {
         setGameScore((gameScore) => gameScore - 1);
-      } else if (myPick === "past" && housePick === "present") {
+      } else if (myPick === "paper" && housePick === "rock") {
         setGameScore((gameScore) => gameScore + 1);
-      } else if (myPick === "past" && housePick === "future") {
+      } else if (myPick === "paper" && housePick === "scissors") {
         setGameScore((gameScore) => gameScore - 1);
       } else {
         setGameScore((gameScore) => gameScore + 0);
