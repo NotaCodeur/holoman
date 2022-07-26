@@ -19,7 +19,7 @@ const Game = (props) => {
 
         {/* <img alt="" src={future} style={{width:"100px"}} /> */}
             <ul key={i}>
-                <Button onClick={(e) => props.setPicks(item.name)} style={{ borderRadius:200, padding: 0, margin: 0, height: "100%" }} >
+                <Button onClick={(e) => props.setPicks(item.name)} style={{ borderRadius:200, padding: 0, margin: 0, height: "100%", background: "none", borderColor: "transparent" }} >
                     {/* <img alt=" " src={item.src} style={{ width: 150, height: 170 }} /> */}
                     {/* <button onClick={(e) => props.setPicks(item.name)}>
       </button> */}
