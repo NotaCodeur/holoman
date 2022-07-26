@@ -82,7 +82,7 @@ const Homepage = () => {
               <Popover
                 content={
                   <>
-                    <p>Rock paper scissors can teach you about the mathematics of game theory.</p>
+                    <p>Rock✊ paper✋ scissors✌ can teach you about the mathematics of game theory.</p>
                     <p>In this table you can see all the possible outcomes.</p>
 
                     <Row gutter={[32,32]}>
@@ -114,19 +114,25 @@ const Homepage = () => {
                     </Row>
                     
                     <pre>
-                      As you can see both players have an 50% chance of winning, and 50% chance of losing each round.
+                      Both players have an 3/9 chance of winning, 3/9 chance of losing and 3/9 chance of a tie👔 each round.
                     </pre>
                     <pre>
-                      Thats also why rock, paper, scissors is often used to settle matters fairly.  
+                      That means that both players have an 50% chance of winning, and 50% chance of losing a point.
+                    </pre>
+                    <pre>
+                      Thats also why rock, paper, scissors is often used to settle very important matters fairly.🧚
                     </pre>
                     <pre>
                       However if you try to win 10 times in a row... 
                     </pre>
                     <pre>
-                      your odds quickly diminish.
+                      your odds quickly diminish.👾😱
                     </pre>
                     <pre>
                       10 games with a 50% chance of winnging gives you: (50%)^10 , which is about 1 / 1000 chance.
+                    </pre>
+                    <pre>
+                      Are you the 1 ?
                     </pre>
 {/*                     
                     <p>holoman is a master of time</p>
