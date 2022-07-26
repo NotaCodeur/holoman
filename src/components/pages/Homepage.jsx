@@ -76,7 +76,7 @@ const Homepage = () => {
             {/* <Heading /> */}
             <h1>Are you a master of probability?</h1>
             <Row justify="center">
-              <h1>> defeat holoman 10 times...&nbsp;  </h1>
+              <h1> defeat holoman 10 times...&nbsp;  </h1>
               <h1> and win a free mint !</h1>
 
               <Popover
