@@ -18,7 +18,8 @@ const Prize = () => {
         <p>to collect your reward "hologif" </p>
         <p>send 6.5 ADA to: </p>
         <img width="20%" src={secret} />
-        <Paragraph copyable>addr1qxuulp7gue6fpy35s4fvp83utcxlneac72sddyuv7jnxmu4hgqquqhf25zf9hu0vh65h5g46qlpqdpehc5mtqz6qua9qqlzmwq </Paragraph>
+        <Paragraph copyable>addr1vxdsny0qje9lw5t2g83wmxc9qrn6njuq9m3e39em5qm80qsmyhppn </Paragraph>
+        <p>or use this link https://pay.nmkr.io/?p=636e2269959746d69561982ede6e60f9&c=1</p>
             </>
         )
 
