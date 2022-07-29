@@ -26,6 +26,8 @@ const Heading = () => {
 
 const Homepage = () => {
   const [myPick, setMyPick] = useState("");
+  const [myImage, setMyImage] = useState("");
+
   const [housePick, setHousePick] = useState("");
   const [houseImage, setHouseImage] = useState("");
 
