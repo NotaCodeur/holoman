@@ -165,7 +165,7 @@ const Homepage = () => {
             <br />
             <br />
             <br />
-            <Row justify="space-around">
+            <Row justify="center">
 
               <Game setPicks={setPicks} />
             </Row>
